@@ -5,7 +5,7 @@ Documentation=https://github.com/janw/pi-hole-influx
 After=network-online.target
 
 [Service]
-User=pi
+User=jared
 Type=notify
 Environment=PYTHONUNBUFFERED=true
 ExecStart=/usr/bin/python3 /home/jared/pi-hole-influx/piholeinflux.py
